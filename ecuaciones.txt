@@ -1,0 +1,19 @@
+Circulo:
+-Area: el radio elevado al cuadrado o lo lo que es lo mismo, el diametro multiplicado por pi
+-Perimetro: El perímetro de un circulo es la circunferencia y su valor es igual diámetro multiplicado por pi.
+
+Cuadrado:
+-perimetro: es la suma de sus 4 lados
+-area: el area de un cuadrado es lado por lado
+
+Triangulo:
+-perimetro: es la suma de sus tres lados
+-area: el area de un triangulo es igual a la base por la altura divido por dos
+
+Esfera:
+-Area: el area es igual a 4 * PI * el diametro o el radio elevado al cuadrado
+-Volumen: El volumen es igual a 4/3 de su radio a la tercera potencia * PI
+
+Cubo:
+-volumen: Solo se debe conocer una arista y eleverla al cubo
+-Area: 6 (caras) * lado * lado
