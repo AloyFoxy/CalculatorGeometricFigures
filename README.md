@@ -7,8 +7,8 @@
 <h4 align="center">A simple application for calculating the area, volume, perimeter and radius of geometric figures.</h4>
 
 <p align="center">
-  <a href="#key-features">Description</a> •
-  <a href="#how-to-use">Related</a> •
+  <a href="#Description">Description</a> •
+  <a href="#Related">Related</a> •
   <a href="#license">License</a>
 </p>
 
