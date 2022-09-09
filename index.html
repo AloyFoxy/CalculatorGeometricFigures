@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,16 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/desktop.css" media="(min-width:768px)">
 
     <title>Pervolar Calculator App</title>
 </head>
+
 <body class="preload">
     <nav></nav>
     <main class="container">
@@ -28,52 +32,131 @@
             </div>
             <div class="container_select_button">
                 <form class="subContainer_select_button">
-    <!--CIRCLE-->   <label for="circle">
-                        <input type="radio" value="circle" onchange="showInputs()" name="figures" id="circle" class="button_geobutton circle " id="circle" checked >
-                            <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
+                    <!--CIRCLE--> <label for="circle">
+                        <input type="radio" value="circle" onchange="showInputs()" name="figures" id="circle"
+                            class="button_geobutton circle " id="circle" checked>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                        </svg>
                         </input>
                     </label>
-    <!--SQUARE-->   <label for="square">
-                        <input type="radio" value="square" onchange="showInputs()" name="figures" id="square" class="button_geobutton square" id="square">
-                            <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-square"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect></svg>
+                    <!--SQUARE--> <label for="square">
+                        <input type="radio" value="square" onchange="showInputs()" name="figures" id="square"
+                            class="button_geobutton square" id="square">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-square">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        </svg>
                         </input>
                     </label>
-    <!--TRIANGLE--> <label for="triangle">
-                        <input type="radio" value="triangle" onchange="showInputs()" name="figures" id="triangle" class="button_geobutton triangle" id="triangle" >
-                            <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path></svg>
+                    <!--TRIANGLE--> <label for="triangle">
+                        <input type="radio" value="triangle" onchange="showInputs()" name="figures" id="triangle"
+                            class="button_geobutton triangle" id="triangle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-triangle">
+                            <path
+                                d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
+                            </path>
+                        </svg>
                         </input>
                     </label>
-    <!--SPHERE-->   <label for="sphere">
-                        <input type="radio" value="sphere" onchange="showInputs()" name="figures" id="sphere" class="button_geobutton sphere" id="sphere">
-                            <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+                    <!--SPHERE--> <label for="sphere">
+                        <input type="radio" value="sphere" onchange="showInputs()" name="figures" id="sphere"
+                            class="button_geobutton sphere" id="sphere">
+                        <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+                            style="enable-background:new 0 0 32 32;" xml:space="preserve">
                             <style type="text/css">
-                                .st0{fill:none;stroke:currentColor;currentColorstroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+                                .st0 {
+                                    fill: none;
+                                    stroke: currentColor;
+                                    currentColorstroke-width: 2;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-miterlimit: 10;
+                                }
                             </style>
-                            <circle class="st0" cx="16" cy="16" r="14"/>
-                            <ellipse class="st0" cx="16" cy="16" rx="6" ry="14"/>
-                            <ellipse class="st0" cx="16" cy="16" rx="14" ry="6"/>
-                            </svg>
+                            <circle class="st0" cx="16" cy="16" r="14" />
+                            <ellipse class="st0" cx="16" cy="16" rx="6" ry="14" />
+                            <ellipse class="st0" cx="16" cy="16" rx="14" ry="6" />
+                        </svg>
                         </input>
                     </label>
-    <!--CUBE-->     <label for="cube">
-                        <input type="radio" value="cube" onchange="showInputs()" name="figures" id="cube" class="button_geobutton cube" id="cube">
-                            <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+                    <!--CUBE--> <label for="cube">
+                        <input type="radio" value="cube" onchange="showInputs()" name="figures" id="cube"
+                            class="button_geobutton cube" id="cube">
+                        <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+                            style="enable-background:new 0 0 32 32;" xml:space="preserve">
                             <style type="text/css">
-                                .st0{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-                                .st1{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
-                                .st2{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6,6;}
-                                .st3{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4,4;}
-                                .st4{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;}
-                                .st5{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-dasharray:3.1081,3.1081;}
-                            
-                                    .st6{fill:none;stroke:currentColor#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:4,3;}
+                                .st0 {
+                                    fill: none;
+                                    stroke: currentColor;
+                                    stroke-width: 2;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-miterlimit: 10;
+                                }
+
+                                .st1 {
+                                    fill: none;
+                                    stroke: currentColor;
+                                    stroke-width: 2;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                }
+
+                                .st2 {
+                                    fill: none;
+                                    stroke: currentColor;
+                                    stroke-width: 2;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-dasharray: 6, 6;
+                                }
+
+                                .st3 {
+                                    fill: none;
+                                    stroke: currentColor;
+                                    stroke-width: 2;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-dasharray: 4, 4;
+                                }
+
+                                .st4 {
+                                    fill: none;
+                                    stroke: currentColor;
+                                    stroke-width: 2;
+                                    stroke-linecap: round;
+                                }
+
+                                .st5 {
+                                    fill: none;
+                                    stroke: currentColor;
+                                    stroke-width: 2;
+                                    stroke-linecap: round;
+                                    stroke-dasharray: 3.1081, 3.1081;
+                                }
+
+                                .st6 {
+                                    fill: none;
+                                    stroke: currentColor#000000;
+                                    stroke-width: 2;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-miterlimit: 10;
+                                    stroke-dasharray: 4, 3;
+                                }
                             </style>
-                            <polygon class="st0" points="4,9.7 4,23.2 16,30 28,23.2 28,9.7 16,3 "/>
-                            <polyline class="st0" points="4,10.2 16,17 28,10.2 "/>
-                            <line class="st0" x1="16" y1="30" x2="16" y2="17"/>
-                            </svg>
+                            <polygon class="st0" points="4,9.7 4,23.2 16,30 28,23.2 28,9.7 16,3 " />
+                            <polyline class="st0" points="4,10.2 16,17 28,10.2 " />
+                            <line class="st0" x1="16" y1="30" x2="16" y2="17" />
+                        </svg>
                         </input>
                     </label>
                 </form>
@@ -81,47 +164,57 @@
             <div class="container_calculator">
                 <div class="sub_container_inputs_circle">
                     <h3 class="inputs_title">Enter the values</h3>
-                    <label class="label_input" for="inputCircleA" id="labelCircleA">Enter the measure of radio of you circle:</label>
-                        <input class="input" type="number" id="inputCircleA">
-                    <label class="label_input" for="inputCircleB" id="labelCircleB">Enter the measure of diameter of you circle:</label>
-                        <input class="input" type="number" id="inputCircleB">
+                    <label class="label_input" for="inputCircleA" id="labelCircleA">Enter the measure of radio of you
+                        circle:</label>
+                    <input class="input" type="number" id="inputCircleA">
+                    <label class="label_input" for="inputCircleB" id="labelCircleB">Enter the measure of diameter of you
+                        circle:</label>
+                    <input class="input" type="number" id="inputCircleB">
                 </div>
                 <div class="sub_container_inputs_square">
                     <h3 class="inputs_title">Enter the values</h3>
-                    <label class="label_input" for="inputSquareA" id="labelSquareA">Enter the measure of sideA of you square</label>
-                        <input class="input" type="number" id="inputSquareA">
+                    <label class="label_input" for="inputSquareA" id="labelSquareA">Enter the measure of sideA of you
+                        square</label>
+                    <input class="input" type="number" id="inputSquareA">
 
-                    <label class="label_input" for="inputSquareB" id="labelSquareB">Enter the measure of sideB of you square</label>
-                        <input class="input" type="number" id="inputSquareB">
+                    <label class="label_input" for="inputSquareB" id="labelSquareB">Enter the measure of sideB of you
+                        square</label>
+                    <input class="input" type="number" id="inputSquareB">
                 </div>
 
 
                 <div class="sub_container_inputs_triangle">
                     <h3 class="inputs_title">Enter the values</h3>
-                    <label class="label_input" for="inputTriangleA" id="labelTriangleA">Enter the measure of sideA of you triangle</label>
+                    <label class="label_input" for="inputTriangleA" id="labelTriangleA">Enter the measure of sideA of
+                        you triangle</label>
                     <input class="input" type="number" id="inputTriangleA">
 
-                    <label class="label_input" for="inputTriangleB" id="labelTriangleB">Enter the measure of sideB of you triangle</label>
+                    <label class="label_input" for="inputTriangleB" id="labelTriangleB">Enter the measure of sideB of
+                        you triangle</label>
                     <input class="input" type="number" id="inputTriangleB">
 
-                    <label class="label_input" for="inputTriangleBase" id="labelTriangleC">Enter the measure of base of you triangle</label>
+                    <label class="label_input" for="inputTriangleBase" id="labelTriangleC">Enter the measure of base of
+                        you triangle</label>
                     <input class="input" type="number" id="inputTriangleBase">
 
-                    <label class="label_input" for="inputTriangleHeight" id="labelTriangleD">Enter the measure of height of you triangle</label>
+                    <label class="label_input" for="inputTriangleHeight" id="labelTriangleD">Enter the measure of height
+                        of you triangle</label>
                     <input class="input" type="number" id="inputTriangleHeight">
                 </div>
 
 
                 <div class="sub_container_inputs_sphere">
                     <h3 class="inputs_title">Enter the values</h3>
-                    <label class="label_input" for="inputSphereA" id="labelSphereA">Enter the measure of radio of you sphere</label>
+                    <label class="label_input" for="inputSphereA" id="labelSphereA">Enter the measure of radio of you
+                        sphere</label>
                     <input class="input" type="number" id="inputSphereA">
                 </div>
 
 
                 <div class="sub_container_inputs_cube">
                     <h3 class="inputs_title">Enter the values</h3>
-                    <label class="label_input" for="inputCubeA" id="labelCubeA">Enter the measure of edge of you cube</label>
+                    <label class="label_input" for="inputCubeA" id="labelCubeA">Enter the measure of edge of you
+                        cube</label>
                     <input class="input" type="number" id="inputCubeA">
                 </div>
 
@@ -144,21 +237,17 @@
                     <span class="result_input" id="result_output_one_volume"></span>
                     <label class="label_input">The area of you is:</label>
                     <span class="result_input" id="result_output_two_volume"></span>
-            </div>
+                </div>
         </section>
     </main>
     <footer class="footer_container">
-        <div class="copyright">
-            <script>
-                document.write('&copy;');
-                document.write(new Date().getFullYear());
-                document.write(' All Rights Reserved.');
-            </script>
-        </div>
+
         <p class="madeBy">
-            Made with <i class="fas fa-heart"></i> by <a class="dev">Federico Puoy</a>
+            Made with <i class="fas fa-heart"></i> by <a href="https://github.com/AloyFox" target="_blank"
+                class="dev">AloyFox</a>
         </p>
     </footer>
     <script src="./js/script.js"></script>
 </body>
+
 </html>
